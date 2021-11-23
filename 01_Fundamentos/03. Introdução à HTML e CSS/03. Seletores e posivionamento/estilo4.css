@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+div{
+    background-color: cornsilk;
+    padding: 5px;
+    margin: auto;
+}
+
+h1, p{
+    text-align: center;
+    font-family: fantasy;
+}
+
+p{
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: burlywood;
+}
+
+a:active, li:active{
+    color: chartreuse;
+}
+a{
+    text-decoration: none;
+    font-family: fantasy;
+}
+ol, ul{
+    list-style: none;
+    text-align: center;
+}
