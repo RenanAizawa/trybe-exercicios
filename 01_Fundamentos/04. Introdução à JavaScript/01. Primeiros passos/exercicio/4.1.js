@@ -38,3 +38,19 @@ if(num > 0){
 }
 console.log(" ")
 console.log("5): ")
+const angA = 60;
+const angB = 40;
+const angC = 80;
+var somaAng = angA + angB + angC;
+var triangulo = true;
+if(){
+    if(somaAng == 180){
+        triangulo = true;
+        console.log(triangulo);
+    } else if(somaAng < 180){
+        triangulo = false;
+        console.log(triangulo);
+    } else{
+        console.log("ERRO: os angulos não pertencem a um triangulo!!!");
+    }
+}    
