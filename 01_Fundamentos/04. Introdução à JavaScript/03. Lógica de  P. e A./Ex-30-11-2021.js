@@ -1,7 +1,7 @@
 console.log("*********************************************************")
 console.log("1) Questão: ")
-
 var n = 5;
+var 
 for(var coluna= 1; coluna <= n; coluna += 1) {
     console.log("*****")
 }
