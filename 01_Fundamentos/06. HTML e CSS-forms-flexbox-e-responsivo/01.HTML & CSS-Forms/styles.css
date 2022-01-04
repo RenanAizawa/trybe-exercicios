@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(212, 212, 212);
+}
+header, main {
+    background-color: #fefefea8;
+}
+.espaco {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
