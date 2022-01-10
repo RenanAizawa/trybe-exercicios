@@ -1,0 +1,56 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.534);
+    margin: 10% 5%;
+}
+
+article {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+
+}
+
+section {
+   
+}
+
+figure {
+    margin: 0;
+    padding: 15px 5px;
+}
+
+figcaption {
+    font-size: .9em;
+}
+
+footer {
+    text-align: center;
+}
