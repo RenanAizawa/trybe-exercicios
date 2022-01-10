@@ -65,3 +65,28 @@ p strong {
 .card:nth-of-type(3) {
     background-color: #41197f;
 }
+
+/* Largura mínima de 500px
+Primeira div
+ */
+ @media screen and (max-width: 500px) {
+    .card {background-color:#000;}
+    body {
+        background-color: blue;
+    }
+}
+
+/* Largura entre 600px e 1000px
+Segunda div
+ */
+
+
+
+ /* Largura entre 650px e 950px
+ terceira div
+ */
+
+
+
+ /* Largura menor de 500px
+  */
