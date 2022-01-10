@@ -69,24 +69,51 @@ p strong {
 /* Largura mínima de 500px
 Primeira div
  */
- @media screen and (max-width: 500px) {
-    .card {background-color:#000;}
-    body {
-        background-color: blue;
+ @media screen and (min-width: 500px) {
+    .card:nth-of-type(1) {
+        display: flex;
+    }
+    section {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 
 /* Largura entre 600px e 1000px
 Segunda div
  */
-
+ @media screen and (max-width: 1000px) and (min-width: 600px) {
+    .card:nth-of-type(2) {
+        display: flex;
+    }
+    section {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
 
 
  /* Largura entre 650px e 950px
  terceira div
  */
-
+ @media screen and (max-width: 950px) and (min-width: 650px) {
+    .card:nth-of-type(3) {
+        display: flex;
+    }
+    section {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
 
 
  /* Largura menor de 500px
   */
+  @media screen and (max-width: 499px) {
+      p.trick {
+          background-color: #0fa36b;
+      }
+  }
