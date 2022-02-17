@@ -1,11 +1,10 @@
-import Pokedex from './Pokedex'
 import Pokemon from './Pokemon'
+import './App.css'
 
 function App() {
   return (
-    <div>
-      {Pokedex}
-      {Pokemon}
+    <div className='Card-container'>
+      <Pokemon/>
     </div>
   );
 }
